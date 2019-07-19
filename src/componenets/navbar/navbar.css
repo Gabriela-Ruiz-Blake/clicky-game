@@ -1,0 +1,15 @@
+.navbar {
+    width: 100%;
+    font-size: 2rem;
+    color: #323F43;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    float: left;
+    color: #323F43;
+  }
+  
+  .scores {
+    float: right;
+  }
