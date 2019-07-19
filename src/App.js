@@ -1,9 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import character from "./componenets/characters";
+import card from "./componenets/card";
 import navbar from "./componenets/navbar";
 import wrapper from "./componenets/wrapper";
+import character from "./characters.json"
 
 function App() {
   return (
