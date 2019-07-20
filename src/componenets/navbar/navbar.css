@@ -1,6 +1,6 @@
 .navbar {
     width: 100%;
-    font-size: 2rem;
+    font-size: 20px;
     color: #323F43;
     margin-bottom: 10px;
   }
@@ -12,6 +12,10 @@
   
   .scores {
     float: right;
+  }
+
+  .header {
+      width: 100%;
   }
 
   
