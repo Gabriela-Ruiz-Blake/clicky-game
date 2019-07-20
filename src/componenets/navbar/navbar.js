@@ -1,17 +1,17 @@
 import React from "react";
-//import "./navbar.css";
-//import { navbar } from "react-bootstrap";
+import "./navbar.css";
+import { navbar } from "react-bootstrap";
 
 const Navbar = props => (
-  <Navbar className="navbar">
-    <Navbar.Brand className="title" href="/">
+  <nav className="navbar">
+    <a className="title" href="/">
       {props.children}
-    </Navbar.Brand>
-    <Navbar.Toggle />
-    <Navbar.text className="scores mr-auto">
+    </a>
+    
+    <div className="scores mr-auto">
       Score: {props.score} Highscore: {props.highscore}
-    </Navbar.text>
-  </Navbar>
+    </div>
+  </nav>
 );
 
 export default Navbar;
